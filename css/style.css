@@ -13,7 +13,7 @@ body{
 }
 
 body::before{
-    background-image: url("");
+    background-image: url("/img/code.png");
     background-repeat: no-repeat;
     background-position: right;
     content: "";
@@ -25,10 +25,10 @@ body::before{
 }
 
 .container{
-    width: 1200px;
+    width: 800px;
     height: 600px;
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: space-between;
     border-radius: 24px;
     border: 1px solid #1875E8;
@@ -38,19 +38,19 @@ body::before{
     position: relative;
 }
 
-.cotainer_conteudo{
+.cotainer_content{
     display: flex;
     align-items: center;
     position: absolute;
     bottom: 0;
 }
 
-.container_informacoes{
+.container_information{
     flex: 1;
     padding: 3rem;
 }
 
-.container_botao{
+.container_button{
     border-radius: 16px;
     background: #1875E8;
     padding: 16px 24px;
@@ -59,4 +59,55 @@ body::before{
     font-weight: 700;
     border: none;
     margin-top: 2rem;
+}
+
+button:disabled{
+    background-color: gray;
+}
+.container_text{
+    margin: 16px 0 16px 0;
+}
+.container_text_blue{
+    color: #1875E8;
+}
+
+.container_input {
+    width: 100%;
+    height: 72px;
+    border-radius: 16px;
+    background-color: #FFF;
+    border: none;
+    color: #1875E8;
+    padding: 2rem;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Inter',sans-serif;
+}
+
+.container_buttons{
+    display: flex;
+    gap: 2em;
+}
+
+.container_left{
+    background-position: left;
+    width: 60%;
+    height: 700px;
+    display: inline-block;
+}
+
+h1{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 72px;
+    padding: 3rem;
+}
+
+p,
+button{
+    font-family: 'Inter', sans-serif;
+}
+
+.text_paragraph{
+    font-size: 32px;
+    font-weight: 400;
 }
