@@ -31,6 +31,11 @@ exibirMensagemInicial();
 
 function verificarChute(){
     let chute= document.querySelector('input').value;
+    let checarChute= parseInt(chute);
+    if(chute !==checarChute.toString()){
+        alert('Por favor, insira apenas números inteiros.');
+        return;
+    }
     console.log(chute == numeroSecreto );
     let palavraTentativa= tentativas> 1 ? 'tentativas': 'tentativa';
     let mensagemTentativas= `Você descobriu o número secreto com ${tentativas} ${palavraTentativa}`;
