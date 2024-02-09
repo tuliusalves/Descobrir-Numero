@@ -1,11 +1,17 @@
+:root{
+    --button_border_color: #B85C38;
+    --gradient_color: linear-gradient(#2D2424 0%, #5C3D2E 33.33%, #5C3D2E 66.67%, #1C1012 100%);
+    --input_text_color: white;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    color: white;
+    color: var(--input_text_color);
 }
 body{
-    background: linear-gradient(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%);
+    background: var(--gradient_color);
     height: 100vh;
     display: flex;
     align-items: center;
@@ -31,7 +37,7 @@ body::before{
     align-items: left;
     justify-content: space-between;
     border-radius: 24px;
-    border: 1px solid #1875E8;
+    border: 3px solid var(--button_border_color);
     box-shadow: 4px 4px 20px 0px rgba(1, 8, 14, 0.15);
     background-image: url();
     background-size: 100% 100%;
@@ -53,13 +59,17 @@ body::before{
 
 .container_button{
     border-radius: 16px;
-    background: #1875E8;
+    background: var(--button_border_color);
     padding: 16px 24px;
     width: 100%;
     font-size: 24px;
     font-weight: 700;
     border: none;
     margin-top: 2rem;
+}
+.container_button:hover{
+    background-color: #9A4D2E;
+    box-shadow: 4px 4px 20px 0px rgba(1, 8, 14, 0.6);
 }
 
 button:disabled{
@@ -69,7 +79,7 @@ button:disabled{
     margin: 16px 0 16px 0;
 }
 .container_text_blue{
-    color: #1875E8;
+    color: var(--button_border_color);
 }
 
 .container_input {
@@ -78,7 +88,7 @@ button:disabled{
     border-radius: 16px;
     background-color: #FFF;
     border: none;
-    color: #1875E8;
+    color: var(--button_border_color);
     padding: 2rem;
     font-size: 24px;
     font-weight: 700;
