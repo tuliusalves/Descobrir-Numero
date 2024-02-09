@@ -2,7 +2,7 @@ let listaDeNumerosSorteados = [];
 let numeroLimite = 10;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
-let vidas = 2;
+let vidas = 4;
 let image;
 
 function exibirTextoNaTela(tag, texto) {
