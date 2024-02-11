@@ -101,7 +101,7 @@ function reiniciarJogo() {
     numeroSecreto = gerarNumeroAleatorio();
     limparCampo();
     tentativas = 1;
-    vidas = 2;
+    vidas = 4;
     exibirMensagemInicial();
     document.getElementById('reset').setAttribute('disabled', true);
     document.getElementById('chute').removeAttribute('disabled');
