@@ -1,6 +1,6 @@
 :root{
-    --button_border_color: #B85C38;
-    --gradient_color: linear-gradient(#2D2424 0%, #5C3D2E 33.33%, #5C3D2E 66.67%, #1C1012 100%);
+    --button_border_color: #17757A;
+    --gradient_color: linear-gradient(#2D2424 0%,  #1C1012 100%);
     --input_text_color: white;
 }
 
@@ -56,6 +56,11 @@ body::before{
     flex: 1;
     padding: 3rem;
 }
+.text_life{
+    text-decoration: underline var(--button_border_color) 3px;
+    
+    padding-bottom: 2%;
+}
 
 .container_button{
     border-radius: 16px;
@@ -68,7 +73,7 @@ body::before{
     margin-top: 2rem;
 }
 .container_button:hover{
-    background-color: #9A4D2E;
+    background-color: #0C3C3F;
     box-shadow: 4px 4px 20px 0px rgba(1, 8, 14, 0.6);
 }
 
@@ -135,4 +140,52 @@ button{
 }
 .text_life{
     font-size: 32px;
+}
+
+@media (max-width: 860px){
+    body{
+        width: 110%;
+    }
+    .container{
+        height: 650px;
+        text-align: center; 
+        
+    }
+    .container_information{
+       
+        padding: 70px 0px 70px 0px;
+    }
+    .container_input{
+        width: 90%;
+        height: 18px;
+        padding: 24px 18px;
+    }
+    .container_buttons{
+        display: inline-block;
+        height: 18px;
+        padding: 10px ;
+    }
+    .container_button{
+        font-size: 16px;
+        padding: 12px 24px;
+    }
+    h1{
+        font-size: 32px ;
+        
+    }
+    .text_paragraph,
+    .text_life{
+        font-size: 20px;
+    }
+    .sideImage{
+        width: 450px;
+        margin: 0;
+        padding: 0;
+        margin-left: 20px;
+    }
+    .sideImage_image{
+        width: 70%;
+    }
+    
+ 
 }
