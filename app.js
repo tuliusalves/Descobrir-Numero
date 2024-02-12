@@ -18,7 +18,6 @@ function fimDeJogo() {
     if (vidas == 0) {
         exibirTextoNaTela('p', 'Fim de jogo!');
         document.getElementById('chute').setAttribute('disabled', false);
-        //Falta permitir que "Novo Jogo", seja acionado.
         document.getElementById('reset').removeAttribute('disabled');
     }
 
