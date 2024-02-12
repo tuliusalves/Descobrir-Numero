@@ -26,10 +26,19 @@ maior ou menor do que o número sorteado.
 será desabilitado.
 * Quando a quantidade de vidas for igual a "zero", o botão "Novo 
 Jogo" será habilitado.
+![erro_maior](https://github.com/tuliusalves/Descobrir-Numero/blob/main/printScreen/Erro_maior.PNG)
+![erro_menor](https://github.com/tuliusalves/Descobrir-Numero/blob/main/printScreen/Erro_menor.PNG)
+![fim_de_jogo](https://github.com/tuliusalves/Descobrir-Numero/blob/main/printScreen/Fim_De_Jogo.PNG)
+
+### Responsividade
+![responsividade_menu](https://github.com/tuliusalves/Descobrir-Numero/blob/main/printScreen/Responsividade_menu.PNG)
+![responsividade_acerto](https://github.com/tuliusalves/Descobrir-Numero/blob/main/printScreen/Responsividade_acerto.PNG)
+![responsividade_erro](https://github.com/tuliusalves/Descobrir-Numero/blob/main/printScreen/Responsividade_erro.PNG)
 
 ## APIs utilizadas
 * ResponsiveVoice
 https://responsivevoice.org/
+
 ## Observações
 * O sistema não permite que o mesmo número sorteado volte à 
 aparecer.
