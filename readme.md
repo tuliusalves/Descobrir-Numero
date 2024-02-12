@@ -13,6 +13,8 @@
 * O botão "Novo Jogo" será habilitado.
 * Após o "Novo Jogo" ser acionado, o usuário recurerará todas
 as vidas.
+![menu](https://github.com/tuliusalves/Descobrir-Numero/blob/main/printScreen/Menu_Principal.PNG)
+![acerto](https://github.com/tuliusalves/Descobrir-Numero/blob/main/printScreen/Acerto.PNG)
 
 ### Em caso de erro
 * O usuário perde uma vida.
