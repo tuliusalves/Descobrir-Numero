@@ -1,6 +1,8 @@
-#Jogo do Número secreto
+# Jogo do Número secreto
 <p>Neste jogo o usuário precisa descobrir um número que será sorteado</p>
 <p>pelo sistema. Ao clicar no botão "chutar", o sistema exibe o resultado.</p>
+<p>No jogo haverá um assistente de voz do broswer que irá auxiliar o </p>
+<p>usuário</p>
 
 ## Ações do sistema
 ### Em caso de acerto
@@ -23,7 +25,9 @@ será desabilitado.
 * Quando a quantidade de vidas for igual a "zero", o botão "Novo 
 Jogo" será habilitado.
 
-
+## APIs utilizadas
+* ResponsiveVoice
+https://responsivevoice.org/
 ## Observações
 * O sistema não permite que o mesmo número sorteado volte à 
 aparecer.
