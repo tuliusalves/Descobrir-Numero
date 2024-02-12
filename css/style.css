@@ -153,7 +153,7 @@ button{
     }
     .container_information{
        
-        padding: 70px 0px 70px 0px;
+        padding: 110px 0px 70px 0px;
     }
     .container_input{
         width: 90%;
@@ -163,7 +163,7 @@ button{
     .container_buttons{
         display: inline-block;
         height: 18px;
-        padding: 10px ;
+        padding: 10px;
     }
     .container_button{
         font-size: 16px;
@@ -173,18 +173,23 @@ button{
         font-size: 32px ;
         
     }
-    .text_paragraph,
+    
     .text_life{
         font-size: 20px;
     }
+    .text_paragraph{
+        font-size: 16px;
+    } 
     .sideImage{
         width: 450px;
         margin: 0;
         padding: 0;
         margin-left: 20px;
+        
     }
     .sideImage_image{
-        width: 70%;
+        width: 60%;
+        height: 60%;
     }
     
  
