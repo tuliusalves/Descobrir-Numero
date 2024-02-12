@@ -31,8 +31,10 @@ Jogo" será habilitado.
 ![fim_de_jogo](https://github.com/tuliusalves/Descobrir-Numero/blob/main/printScreen/Fim_De_Jogo.PNG)
 
 ### Responsividade
-![responsividade_menu](https://github.com/tuliusalves/Descobrir-Numero/blob/main/printScreen/Responsividade_menu.PNG)
+![responsividade_menu](https://github.com/tuliusalves/Descobrir-Numero/blob/main/printScreen/Responsividade_menu.PNG) 
+<br>
 ![responsividade_acerto](https://github.com/tuliusalves/Descobrir-Numero/blob/main/printScreen/Responsividade_acerto.PNG)
+<br>
 ![responsividade_erro](https://github.com/tuliusalves/Descobrir-Numero/blob/main/printScreen/Responsividade_erro.PNG)
 
 ## APIs utilizadas
