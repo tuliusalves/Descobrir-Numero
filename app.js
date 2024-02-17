@@ -23,7 +23,7 @@ function fimDeJogo() {
 
 }
 function exibirMensagemInicial() {
-    exibirTextoNaTela('h1', 'Jogo do número secreto');
+    exibirTextoNaTela('h1', 'Jogo do Número Secreto');
     exibirVida();
     exibirTextoNaTela('p', 'Escolha um número entre 1 e 10');
 }
