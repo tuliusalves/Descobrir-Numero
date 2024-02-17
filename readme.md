@@ -13,8 +13,8 @@
 * O botão "Novo Jogo" será habilitado.
 * Após o "Novo Jogo" ser acionado, o usuário recurerará todas
 as vidas.
-![menu](https://github.com/tuliusalves/Descobrir-Numero/blob/main/printScreen/Menu_Principal.PNG)
-![acerto](https://github.com/tuliusalves/Descobrir-Numero/blob/main/printScreen/Acerto.PNG)
+![menu](https://github.com/tuliusalves/Descobrir-Numero/blob/main/printScreen/Menu_Principal.PNG?raw=true)
+![acerto](https://github.com/tuliusalves/Descobrir-Numero/blob/main/printScreen/Acerto.PNG?raw=true)
 
 ### Em caso de erro
 * O usuário perde uma vida.
@@ -26,16 +26,16 @@ maior ou menor do que o número sorteado.
 será desabilitado.
 * Quando a quantidade de vidas for igual a "zero", o botão "Novo 
 Jogo" será habilitado.
-![erro_maior](https://github.com/tuliusalves/Descobrir-Numero/blob/main/printScreen/Erro_maior.PNG)
-![erro_menor](https://github.com/tuliusalves/Descobrir-Numero/blob/main/printScreen/Erro_menor.PNG)
-![fim_de_jogo](https://github.com/tuliusalves/Descobrir-Numero/blob/main/printScreen/Fim_De_Jogo.PNG)
+![erro_maior](https://github.com/tuliusalves/Descobrir-Numero/blob/main/printScreen/Erro_maior.PNG?raw=true)
+![erro_menor](https://github.com/tuliusalves/Descobrir-Numero/blob/main/printScreen/Erro_menor.PNG?raw=true)
+![fim_de_jogo](https://github.com/tuliusalves/Descobrir-Numero/blob/main/printScreen/Fim_De_Jogo.PNG?raw=true)
 
 ### Responsividade
-![responsividade_menu](https://github.com/tuliusalves/Descobrir-Numero/blob/main/printScreen/Responsividade_menu.PNG) 
+![responsividade_menu](https://github.com/tuliusalves/Descobrir-Numero/blob/main/printScreen/Responsividade_menu.PNG?raw=true) 
 <br>
-![responsividade_acerto](https://github.com/tuliusalves/Descobrir-Numero/blob/main/printScreen/Responsividade_acerto.PNG)
+![responsividade_acerto](https://github.com/tuliusalves/Descobrir-Numero/blob/main/printScreen/Responsividade_acerto.PNG?raw=true)
 <br>
-![responsividade_erro](https://github.com/tuliusalves/Descobrir-Numero/blob/main/printScreen/Responsividade_erro.PNG)
+![responsividade_erro](https://github.com/tuliusalves/Descobrir-Numero/blob/main/printScreen/Responsividade_erro.PNG?raw=true)
 
 ## APIs utilizadas
 * ResponsiveVoice
