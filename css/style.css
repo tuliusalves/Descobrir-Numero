@@ -82,6 +82,7 @@ button:disabled{
 }
 .container_text{
     margin: 16px 0 16px 0;
+    text-align: center;
 }
 .container_text_blue{
     color: var(--button_border_color);
@@ -142,15 +143,51 @@ button{
     font-size: 32px;
 }
 
+.social{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--button_border_color);
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    margin-top: 900px;
+    position: absolute;
+   
+}
+.social__media{
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    gap: 25px;
+}
+.social__media__linkedin,
+.social__media__github{
+    width: 90%;
+    height: 6vh;
+   
+}
+
+.social__media__linkedin:hover,
+.social__media__github:hover{
+    width: 90%;
+    padding-bottom: 4px;
+    border-bottom: #0C3C3F solid 2px;
+}
+
+
 @media (max-width: 860px){
     body{
-        width: 110%;
+        width: 120%;
+        height: 790px;
+        background: #1C1012;
+       
     }
-    .container{
-        height: 650px;
-        text-align: center; 
-        
+    body::before{
+        background-image: url("/img/code.png");
+        background-repeat: no-repeat;
+       
     }
+  
     .container_information{
        
         padding: 110px 0px 70px 0px;
@@ -159,6 +196,7 @@ button{
         width: 90%;
         height: 18px;
         padding: 24px 18px;
+        margin-left: 5%;
     }
     .container_buttons{
         display: inline-block;
@@ -171,7 +209,6 @@ button{
     }
     h1{
         font-size: 32px ;
-        
     }
     
     .text_life{
@@ -191,6 +228,9 @@ button{
         width: 60%;
         height: 60%;
     }
+    .social{
+        width: 415px;
+        margin-top: 750px;
+    }
     
- 
 }
